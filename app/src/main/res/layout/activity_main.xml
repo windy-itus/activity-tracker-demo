@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnInitializeSDK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Initialize SDK"/>
+
+    <Button
+        android:id="@+id/btnSendStartLevelEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Start Level Event"/>
+
+    <Button
+        android:id="@+id/btnSendEndLevelPassEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send End Level Event with passed"/>
+
+    <Button
+        android:id="@+id/btnSendEndLevelFailedEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send End Level Event with failed"/>
+
+    <Button
+        android:id="@+id/btnSendCustomEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Custom Event"/>
+
+    <Button
+        android:id="@+id/btnSendManyEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Many Events" />
+
+    <Button
+        android:id="@+id/btnShutdownSDK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shutdown SDK"/>
+
+    <!-- Add more buttons for other SDK functions -->
+</LinearLayout>
